@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  transition: all 0.3s;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background: #f4f4f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  text-rendering: optimizelegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.message-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-wrapper div {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 30px 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.message-wrapper div > p {
+    text-align: center;
+    margin: 5px;
+}
+
+.message-wrapper div > h2 {
+    text-align: center;
+    margin: 5px;
+}
+
+.email_span{
+    color:blue;
+    text-decoration: underline;
+}
+
+.message-wrapper div > img {
+  width: 304px;
+  height: 233px;
+  margin: 0 auto;
+}
+
